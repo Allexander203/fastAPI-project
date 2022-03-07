@@ -29,4 +29,4 @@ app.include_router(vote.router)  # imports the rout from vote.py
 
 @app.get("/")
 def root():
-    return {"Message": "Hello world"}
+    return {"Message": "Hello world successfully deployed from ci/cd pipeline"}
