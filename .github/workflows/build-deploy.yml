@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     environment: production
-      - name: production
+      name: production
     steps:
       - name: Pulling get repo
         uses: actions/checkout@v2
