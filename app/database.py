@@ -18,6 +18,7 @@ def get_db():
         yield db
     finally:
         db.close()
+        
     #connecting to database
 # while True:
 #     try:
